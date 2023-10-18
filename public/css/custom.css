@@ -10,7 +10,7 @@
 @media (max-width: 575px) {
     .product-list {
       /* grid-template-columns: 1fr 1fr; */
-      grid-template-columns: 1fr; /* Display 2 cards in a row */
+      grid-template-columns: 1fr 1fr; /* Display 2 cards in a row */
     }
   }
   
