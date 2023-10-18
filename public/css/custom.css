@@ -1,0 +1,24 @@
+.logo img{
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+@media (max-width: 575px) {
+    .product-list {
+      /* Display 2 cards in a row */
+      /* grid-template-columns: 1fr 1fr; */
+      grid-template-columns: 1fr;
+    }
+  }
+.card-banner{
+    border-radius: 2px;
+}
+.footer {
+    font-family: var(--ff-roboto);
+    background-color: rgb(241, 243, 244, .8)
+  }
+  
+  
+  
