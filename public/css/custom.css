@@ -1,2 +1,16 @@
+.logo img{
+    height: 55px;
+    width: 55px;
+    margin-left: 25px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
 
+/* Add a media query for mobile screens (e.g., screens up to 575px) */
+@media (max-width: 575px) {
+    .product-list {
+      /* grid-template-columns: 1fr 1fr; */
+      grid-template-columns: 1fr; /* Display 2 cards in a row */
+    }
+  }
   
